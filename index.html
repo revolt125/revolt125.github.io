@@ -71,7 +71,12 @@
           </picture>
         </div>
         <div class="swiper-slide">
-          <div class="bannerimgbox"><img class="bannerimg" src="./img/porsche-norma-more.webp" alt=""></div>
+          <picture class="bannerimgbox">
+            <!-- <img class="bannerimg" src="./img/porsche-norma-more.webp" alt=""> -->
+            <source class="bannerimg" type="image/webp" srcset="./img/porsche-norma-more.webp">
+              <source class="bannerimg" type=" image/jpeg" srcset="./img/porsche-norma-more.jpg">
+              <img class="bannerimg" src="./img/porsche-norma-more.jpg" alt="">
+          </picture>
         </div>
         <div class="swiper-slide">
           <div class="bannerimgbox"><img class="bannerimg" src="./img/porsche-taycan.webp" alt=""></div>
