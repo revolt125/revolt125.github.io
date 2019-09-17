@@ -63,7 +63,12 @@
     <div id="banner-swiper" class="swiper-container">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <div class="bannerimgbox"><img class="bannerimg" src="./img/porsche-normal.webp" alt=""></div>
+          <picture class="bannerimgbox">
+            <!-- <img class="bannerimg" src="./img/porsche-normal.webp" alt=""> -->
+            <!-- <source class="bannerimg type=" image/webp" srcset="./img/porsche-normal.webp">
+            <source class="bannerimg type=" image/jpeg" srcset="./img/porsche-normal.webp"> -->
+            <img class="bannerimg" src="./img/porsche-normal.jpg" alt="">
+          </picture>
         </div>
         <div class="swiper-slide">
           <div class="bannerimgbox"><img class="bannerimg" src="./img/porsche-norma-more.webp" alt=""></div>
@@ -186,7 +191,9 @@
     </div>
   </section>
   <footer>
-    <div class="container d-flex justify-content-center align-items-center text-light"><p>© 2019 Porsche 僅供學術用途</p><a class="" href="#"><i class="fas fa-arrow-circle-up"></i></a></div>
+    <div class="container d-flex justify-content-center align-items-center text-light">
+      <p>© 2019 Porsche 僅供學術用途</p><a class="" href="#"><i class="fas fa-arrow-circle-up"></i></a>
+    </div>
   </footer>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
